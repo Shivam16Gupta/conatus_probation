@@ -1,0 +1,16 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    //background-color: rgb(221, 219, 219);
+}
+svg{
+    background-color:rgb(231, 231, 231);
+    height:200px;
+    width:200px;
+    //border-radius: 45%;
+    border-style:none;
+}

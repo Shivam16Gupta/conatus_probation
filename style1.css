@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    min-height:100vh;
+    width:100vw;
+    background-image: linear-gradient(45deg,#F55555,#FCCF31);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+    margin-top:40px;
+}
+img{
+    margin:-30px 145px;
+    place-items: center;
+    position: absolute;
+    color:white;
+    border-radius: 50px;
+}
+.ex{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    background-color: rgb(230, 225, 225);
+    width:340px;
+    height:400px;
+}
+.blank{
+    border-style: none;
+    border-radius: 20px;
+    width:300px;
+    height:42px;
+    margin:20px 20px 10px 20px;
+    
+}
+Button:hover{
+    cursor: pointer;
+    background-color:rgb(247, 245, 245);
+}
+Button:checked{
+    background-color: rgb(103, 171, 230);
+}
+input{
+    padding: 10px;
+}
+Button{
+    font-size: 18px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    margin:20px;
+    width:300px;
+    height:42px;
+    border-radius:20px;
+    background-color:white;
+    color:blue;
+}
+a{
+    margin-left:30px;
+}
+.ex:hover .img{
+    box-shadow: 5px 5px 5px 0px rgb(0,0,2);
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
