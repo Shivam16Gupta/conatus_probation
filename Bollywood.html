@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            MY STUFF
+        </title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="bollywood.css" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <p>hi</p>
+           
+        </div>
+    </body>
+    <script>
+        const name = ["SOORYAVANSHAM","NAYAK","SHOLAY","DABANGG"];
+        var letter; 
+        for(let i=0;i<name.length;i++)
+        {   const movie = String(name[i]);
+            letter = movie[0];
+            for(let j=2;j<movie.length;j+=2)
+            {
+                letter = letter+"_"+movie[j];
+            
+            }
+            document.body.innerHTML=letter;
+            letter = " ";
+        }
+
+    </script>
+</html>
